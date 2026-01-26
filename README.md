@@ -9,9 +9,9 @@
 网络结构由 [ArtFlow(CVPR, 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/An_ArtFlow_Unbiased_Image_Style_Transfer_via_Reversible_Neural_Flows_CVPR_2021_paper.html) 和 [Text-IF(CVPR, 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Yi_Text-IF_Leveraging_Semantic_Text_Guidance_for_Degradation-Aware_and_Interactive_Image_CVPR_2024_paper.html) 启发而来  
 感谢上述所有作者的杰出工作 
   
-The training and testing framework is built by [MFFT(EAAI, 2024)](https://www.sciencedirect.com/science/article/abs/pii/S0952197624001258)
-The network structure is inspired by [ArtFlow(CVPR, 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/An_ArtFlow_Unbiased_Image_Style_Transfer_via_Reversible_Neural_Flows_CVPR_2021_paper.html) and [Text-IF(CVPR, 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Yi_Text-IF_Leveraging_Semantic_Text_Guidance_for_Degradation-Aware_and_Interactive_Image_CVPR_2024_paper.html)
-Thank you to all the authors mentioned above for their outstanding work
+The training and testing framework is built by [MFFT(EAAI, 2024)](https://www.sciencedirect.com/science/article/abs/pii/S0952197624001258)  
+The network structure is inspired by [ArtFlow(CVPR, 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/An_ArtFlow_Unbiased_Image_Style_Transfer_via_Reversible_Neural_Flows_CVPR_2021_paper.html) and [Text-IF(CVPR, 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Yi_Text-IF_Leveraging_Semantic_Text_Guidance_for_Degradation-Aware_and_Interactive_Image_CVPR_2024_paper.html)  
+Thank you to all the authors mentioned above for their outstanding work  
   
 # Highlights  
 -   A novel perspective: viewing high-quality fused images and degraded source images as interchangeable objects.
