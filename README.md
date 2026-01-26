@@ -1,12 +1,55 @@
-# Text-MFF 
-在文章接收之前只提供网络部分以供查阅。  
-如想复现结果可根据我们先前的工作进行代码构建，简单替换network即可运行。  
-FusionGCN(ESWA, 2025)，MSI-DTrans(DISPLAYS, 2024)  
+# Text-MFF (Expert Systems With Applications, 2026)：
   
-Before receiving the article, only the online section is provided for reference.  
-If you want to reproduce the results, you can build the code based on our previous work and simply replace the network to run it.  
-FusionGCN(ESWA, 2025)，MSI-DTrans(DISPLAYS, 2024)  
- 
+#### 欢迎参考和引用我们的工作(Welcome to refer to and cite our work)  
+#### 文章发表在Expert Systems with Applications Volume 262, 1 March 2025上
+#### Code for paper [“FusionGCN: Multi-focus image fusion using superpixel features generation GCN and pixel-level feature reconstruction CNN”](https://www.sciencedirect.com/science/article/pii/S0957417424025326).  
+  
+# Acknowledgments ※  
+训练、测试框架由 [MFFT(EAAI, 2024)](https://www.sciencedirect.com/science/article/abs/pii/S0952197624001258) 构建而来  
+网络结构由 [ArtFlow(CVPR, 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/An_ArtFlow_Unbiased_Image_Style_Transfer_via_Reversible_Neural_Flows_CVPR_2021_paper.html) 和 [Text-IF(CVPR, 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Yi_Text-IF_Leveraging_Semantic_Text_Guidance_for_Degradation-Aware_and_Interactive_Image_CVPR_2024_paper.html) 构建而来  
+感谢上述所有作者的杰出工作 
+  
+# Highlights  
+-   A novel perspective: viewing high-quality fused images and degraded source images as interchangeable objects.
+-   Construction and visualization of conversion relationships based on reversible neural flow.
+-   FusionGCN has achieved good results on multiple datasets.
+  
+# Reference information ※  
+```  
+@article{Ouyang2025FusionGCN,
+  title={FusionGCN: Multi-focus image fusion using superpixel features generation GCN and pixel-level feature reconstruction CNN},  
+  author={Yuncan Ouyang and Hao Zhai and Hanyue Hu and Xiaohang Li and Zhi Zeng},  
+  journal={Expert Systems with Applications},  
+  pages={125665},  
+  year={2025},  
+  publisher={Elsevier}  
+}
+```
+  
+### Or  
+  
+```
+Ouyang Y, Zhai H, Hu H, et al. FusionGCN: Multi-focus image fusion using superpixel features generation GCN and pixel-level feature reconstruction CNN[J]. Expert Systems with Applications, 2025: 125665.
+```
+  
+# Dependencies  
+-   python >= 3.6
+-   pytorch >= 1.5.0
+-   CUDA >= 12.0
+-   train.py -- 训练我们的网络(Train our network)
+-   inference.py -- 利用训练好的网络参数进行图像融合(Fusion images through network)
+
+# How to use ※
+-   代码提供Lytro, MFFW, MFI-WHU和GrayScale4个数据集进行测试
+-   The code provides four datasets for testing: Lytro, MFFW, MFI-WHU and GrayScale
+-   仅需替换inference.py中的数据集名称即可一键运行
+-   Simply replace the dataset name in the inference.py to run with one click
+  
+# Results  
+The output results will be stored in `./Result/(datasetname)`.
+
+Our results in Lytro, MFFW, MFI-WHU, GrayScale datasets can be downloaded.
+
 # Acknowledgments ※  
 以上代码在 [MFFT(EAAI, 2024)](https://www.sciencedirect.com/science/article/abs/pii/S0952197624001258) 的基础上构建而来  
 感谢他的杰出工作  
