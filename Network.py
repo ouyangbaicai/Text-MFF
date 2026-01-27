@@ -262,40 +262,24 @@ class Block(nn.Module):
 
 
 def symmetric_wct(fea_a, fea_b):
-    """
-    对称白化和着色变换 (Symmetric Whitening and Coloring Transform, SWCT)
-    用于多聚焦图像融合，将两个输入特征同等对待并融合。
 
-    Args:
-        fea_a (Tensor): 第一个输入特征 (batch_size, channels, height, width)
-        fea_b (Tensor): 第二个输入特征 (batch_size, channels, height, width)
-
-    Returns:
-        fused_feat (Tensor): 融合后的特征 (batch_size, channels, height, width)
-    """
-    # 获取特征尺寸
     batch_size, channels, height, width = fea_a.size()
 
-    # 将 4D 张量转换为 2D 张量 (channels, height * width)
     fea_a_2d = fea_a.view(channels, -1)
     fea_b_2d = fea_b.view(channels, -1)
 
-    # 对两个特征进行中心化
     a_mean = torch.mean(fea_a_2d, 1)  # channels x 1
     b_mean = torch.mean(fea_b_2d, 1)  # channels x 1
 
     fea_a_centered = fea_a_2d - a_mean.unsqueeze(1).expand_as(fea_a_2d)
     fea_b_centered = fea_b_2d - b_mean.unsqueeze(1).expand_as(fea_b_2d)
 
-    # 计算协方差矩阵
     aConv = torch.mm(fea_a_centered, fea_a_centered.t()).div(fea_a_centered.size(1) - 1)
     bConv = torch.mm(fea_b_centered, fea_b_centered.t()).div(fea_b_centered.size(1) - 1)
 
-    # 对协方差矩阵进行奇异值分解
     a_u, a_e, a_v = torch.svd(aConv, some=False)
     b_u, b_e, b_v = torch.svd(bConv, some=False)
 
-    # 确定截断点（保留主要特征分量）
     k_a = channels
     for i in range(channels - 1, -1, -1):
         if a_e[i] >= 0.00001:
@@ -308,36 +292,29 @@ def symmetric_wct(fea_a, fea_b):
             k_b = i + 1
             break
 
-    # 对fea_a特征进行白化
     a_d = (a_e[0:k_a]).pow(-0.5)
     step1_a = torch.mm(a_v[:, 0:k_a], torch.diag(a_d))
     step2_a = torch.mm(step1_a, a_v[:, 0:k_a].t())
     whiten_aF = torch.mm(step2_a, fea_a_centered)
 
-    # 对fea_b特征进行白化
     b_d = (b_e[0:k_b]).pow(-0.5)
     step1_b = torch.mm(b_v[:, 0:k_b], torch.diag(b_d))
     step2_b = torch.mm(step1_b, b_v[:, 0:k_b].t())
     whiten_bF = torch.mm(step2_b, fea_b_centered)
 
-    # 融合两个白化后的特征
-    fused_whiten = (whiten_aF + whiten_bF) / 2.0  # 简单平均
+    fused_whiten = (whiten_aF + whiten_bF) / 2.0
 
-    # 计算两个输入的协方差矩阵的共同特征子空间
     commonConv = (aConv + bConv) / 2.0
     common_u, common_e, common_v = torch.svd(commonConv, some=False)
 
-    # 对融合后的特征进行着色
-    common_d = (common_e[0:k_a]).pow(0.5)  # 使用fea_a的截断点
+    common_d = (common_e[0:k_a]).pow(0.5)
     step1_common = torch.mm(common_v[:, 0:k_a], torch.diag(common_d))
     step2_common = torch.mm(step1_common, common_v[:, 0:k_a].t())
     colored_fused = torch.mm(step2_common, fused_whiten)
 
-    # 恢复均值
     fused_mean = (a_mean + b_mean) / 2.0
     fused_feat_2d = colored_fused + fused_mean.unsqueeze(1).expand_as(colored_fused)
 
-    # 将 2D 张量转换回 4D 张量
     fused_feat = fused_feat_2d.view(batch_size, channels, height, width)
 
     return fused_feat
@@ -565,5 +542,6 @@ if __name__ == '__main__':
     Pre_B, real_similarities_B, fake_similarities_B, text_B = model(test_tensor_B, text, forward=True)
     # Reverse
     Pre = model(Pre_A, Pre_B, text_A, forward=False)
+
 
     print(Pre.shape)
