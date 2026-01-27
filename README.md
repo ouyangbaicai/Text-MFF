@@ -20,10 +20,10 @@ Thank you to all the authors mentioned above for their outstanding work.
   
 # How to use ※
 -   仅提供关键代码和权重。
+-   完整代码构建可参考[FusionGCN](https://github.com/ouyangbaicai/FusionGCN)项目。
+-   仅需简单替换即可完成。  
 -   Only provide key codes and weights.  
--   完整代码构建可参考[FusionGCN](https://github.com/ouyangbaicai/FusionGCN)项目。  
 -   The complete code construction can refer to the [FusionGCN](https://github.com/ouyangbaicai/FusionGCN) project.
--   仅需简单替换即可完成。
 -   Simply replace it to complete.
 
 # submitted and accepted dates  
