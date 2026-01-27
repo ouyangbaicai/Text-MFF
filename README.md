@@ -25,7 +25,14 @@ Thank you to all the authors mentioned above for their outstanding work.
 -   The complete code construction can refer to the FusionGCN project.
 -   仅需简单替换即可完成。
 -   Simply replace it to complete.
-  
+
+# submitted and accepted dates (25-26)  
+-   Fitst Sbumit: STJ(6.17)→WE(6.18)→UR(7.5)→DIP(9.15)→Revise  
+-   R1: STJ(9.18)→WE(9.18)→UR(9.24)→DIP(10.6)→Revise  
+-   R2: STJ(10.8)→WE(10.8)→UR(10.16)→DIP(12.24)→Revise  
+-   R3: STJ(12.26)→WE(1.7)→UR(1.11)→DIP(1.14)→Revise
+-   R4: STJ(1.19)→WE(1.19)→UR(1.22)→DIP(1.26)→Acepted
+
 # Reference information ※  
 ```  
 @article{Ouyang2025FusionGCN,
@@ -44,7 +51,5 @@ Thank you to all the authors mentioned above for their outstanding work.
 Ouyang Y, Zhai H, Hu H, et al. FusionGCN: Multi-focus image fusion using superpixel features generation GCN and pixel-level feature reconstruction CNN[J]. Expert Systems with Applications, 2025: 125665.
 ```
 
-
-  
 # Contact information  
 E-mail addresses: 2023210516060@stu.cqnu.edu.cn (Y. Ouyang)
