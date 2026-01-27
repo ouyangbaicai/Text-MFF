@@ -27,7 +27,7 @@ Thank you to all the authors mentioned above for their outstanding work.
 -   Simply replace it to complete.
 
 # submitted and accepted dates (25-26)  
--   **Fitst Sbumit:** STJ(6.17)→WE(6.18)→UR(7.5)→DIP(9.15)→**Revise**  
+-   **Fitst Sbumit:** **STJ**(6.17)→**WE**(6.18)→**UR**(7.5)→**DIP**(9.15)→**Revise(9.16)**  
 -   **R1:** STJ(9.18)→WE(9.18)→UR(9.24)→DIP(10.6)→**Revise**  
 -   **R2:** STJ(10.8)→WE(10.8)→UR(10.16)→DIP(12.24)→**Revise**  
 -   **R3:** STJ(12.26)→WE(1.7)→UR(1.11)→DIP(1.14)→**Revise**
