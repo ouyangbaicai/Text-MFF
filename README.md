@@ -49,7 +49,7 @@ doi = {https://doi.org/10.1016/j.eswa.2026.131369}
 ### Or  
   
 ```
-Ouyang Y, Zhai H, Hu H, et al. FusionGCN: Multi-focus image fusion using superpixel features generation GCN and pixel-level feature reconstruction CNN[J]. Expert Systems with Applications, 2025: 125665.
+Ouyang Y, Zhai H, Jiang J, et al. Text-MFF: Degradation multi-focus image fusion using multi expert text constraints[J]. Expert Systems with Applications, 2026: 131369.
 ```
 
 # Contact information  
