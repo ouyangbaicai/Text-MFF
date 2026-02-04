@@ -35,13 +35,14 @@ Thank you to all the authors mentioned above for their outstanding work.
 
 # Reference information ※  
 ```  
-@article{Ouyang2025FusionGCN,
-  title={FusionGCN: Multi-focus image fusion using superpixel features generation GCN and pixel-level feature reconstruction CNN},  
-  author={Yuncan Ouyang and Hao Zhai and Hanyue Hu and Xiaohang Li and Zhi Zeng},  
-  journal={Expert Systems with Applications},  
-  pages={125665},  
-  year={2025},  
-  publisher={Elsevier}  
+@article{OUYANG2026131369,
+title = {Text-MFF: Degradation multi-focus image fusion using multi expert text constraints},
+journal = {Expert Systems with Applications},
+volume = {311},
+pages = {131369},
+year = {2026},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2026.131369}
 }
 ```
   
