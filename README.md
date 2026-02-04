@@ -1,8 +1,8 @@
 # Text-MFF (Expert Systems With Applications, 2026)：
   
 #### 欢迎参考和引用我们的工作(Welcome to refer to and cite our work) 
-#### 文章发表在Expert Systems with Applications Volume 262, 1 March 2025上
-#### Code for paper [“FusionGCN: Multi-focus image fusion using superpixel features generation GCN and pixel-level feature reconstruction CNN”](https://www.sciencedirect.com/science/article/pii/S0957417424025326).  
+#### 文章发表在Expert Systems with Applications Volume 311, 15 May 2026上
+#### Code for paper [“Text-MFF: Degradation multi-focus image fusion using multi expert text constraints”](https://www.sciencedirect.com/science/article/abs/pii/S0957417426002824).  
   
 # Acknowledgments ※  
 训练、测试框架由 [MFFT(EAAI, 2024)](https://www.sciencedirect.com/science/article/abs/pii/S0952197624001258) 构建而来。  
