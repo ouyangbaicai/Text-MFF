@@ -1,5 +1,6 @@
 # Text-MFF (Expert Systems With Applications, 2026)：
-  
+
+#### 权重和相关数据正在整理，预计一个月后将更新完毕所有内容。  
 #### 欢迎参考和引用我们的工作(Welcome to refer to and cite our work) 
 #### 文章发表在Expert Systems with Applications Volume 311, 15 May 2026上
 #### Code for paper [“Text-MFF: Degradation multi-focus image fusion using multi expert text constraints”](https://www.sciencedirect.com/science/article/abs/pii/S0957417426002824).  
