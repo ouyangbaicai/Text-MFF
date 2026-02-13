@@ -14,17 +14,16 @@ The training and testing framework is built by [MFFT(EAAI, 2024)](https://www.sc
 The network structure is inspired by [ArtFlow(CVPR, 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/An_ArtFlow_Unbiased_Image_Style_Transfer_via_Reversible_Neural_Flows_CVPR_2021_paper.html) and [Text-IF(CVPR, 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Yi_Text-IF_Leveraging_Semantic_Text_Guidance_for_Degradation-Aware_and_Interactive_Image_CVPR_2024_paper.html).  
 Thank you to all the authors mentioned above for their outstanding work.  
 
-## 🚀 Repository List
+## Multi-focus image fusion related work
 
 <div align="center">
 
 | **Method** | **Code** | **Paper** | **Status** |
 |:----------:|:--------:|:---------:|:----------:|
-| **StackMFF** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF) | [<img src="https://img.shields.io/badge/Paper-Applied_Intelligence-blue?style=for-the-badge" alt="Paper"/>](https://link.springer.com/article/10.1007/s10489-025-06383-8) | ✅ Published |
-| **StackMFF V2** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V2) | [<img src="https://img.shields.io/badge/Paper-EAAI-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | ✅ Published |
-| **StackMFF V3** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V3) | [<img src="https://img.shields.io/badge/Preprint-SSRN-orange?style=for-the-badge" alt="Preprint"/>](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5954614) | 🔄 In Review |
-| **StackMFF V4 (GMFF)** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V4) | [<img src="https://img.shields.io/badge/Preprint-arXiv-orange?style=for-the-badge" alt="Preprint"/>](https://arxiv.org/abs/2512.21495) | 🔄 In Review |
-| **StackMFF V5** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V5) | - | 🔬 Researching |
+| **MSI-DTrans** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/MSI-DTrans) | [<img src="https://img.shields.io/badge/Paper-Applied_Intelligence-blue?style=for-the-badge" alt="Paper"/>](https://link.springer.com/article/10.1007/s10489-025-06383-8) | ✅ Published |
+| **FusionGCN** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/FusionGCN) | [<img src="https://img.shields.io/badge/Paper-EAAI-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | ✅ Published |
+| **Frame-MFF** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/Frame-MFF) | [<img src="https://img.shields.io/badge/Preprint-SSRN-orange?style=for-the-badge" alt="Preprint"/>](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5954614) | 🙅‍ Unrevealed |
+| **Text-MFF** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/Text-MFF) | [<img src="https://img.shields.io/badge/Preprint-arXiv-orange?style=for-the-badge" alt="Preprint"/>](https://arxiv.org/abs/2512.21495) | ✅ Published |
 
 </div>
   
