@@ -20,9 +20,9 @@ Thank you to all the authors mentioned above for their outstanding work.
 
 | **Method** | **Code** | **Paper** | **Status** |
 |:----------:|:--------:|:---------:|:----------:|
-| **MSI-DTrans (2024)** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/MSI-DTrans) | [<img src="https://img.shields.io/badge/Paper-DISPLAYS-blue?style=for-the-badge" alt="Paper"/>](https://link.springer.com/article/10.1007/s10489-025-06383-8) | ✅ Published |
+| **MSI-DTrans (2024)** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/MSI-DTrans) | [<img src="https://img.shields.io/badge/Paper-DISPLAYS-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0141938224002014) | ✅ Published |
 | **FusionGCN (2025)** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/FusionGCN) | [<img src="https://img.shields.io/badge/Paper-ESWA-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/pii/S0957417424025326) | ✅ Published |
-| **Frame-MFF (N/A)** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/Frame-MFF) | [<img src="https://img.shields.io/badge/Preprint-Private-orange?style=for-the-badge" alt="Preprint"/>](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5954614) | 🙅‍ Unrevealed |
+| **Frame-MFF (N/A)** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/Frame-MFF) | [<img src="https://img.shields.io/badge/Preprint-Private-orange?style=for-the-badge" alt="Preprint"/>](https://github.com/ouyangbaicai/Frame-MFF) | 🙅‍ Unrevealed |
 | **Text-MFF (2026）** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/ouyangbaicai/Text-MFF) | [<img src="https://img.shields.io/badge/Paper-ESWA-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0957417426002824) | ✅ Published |
 
 </div>
