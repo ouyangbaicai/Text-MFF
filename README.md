@@ -14,7 +14,7 @@ The training and testing framework is built by [MFFT(EAAI, 2024)](https://www.sc
 The network structure is inspired by [ArtFlow(CVPR, 2021)](https://openaccess.thecvf.com/content/CVPR2021/html/An_ArtFlow_Unbiased_Image_Style_Transfer_via_Reversible_Neural_Flows_CVPR_2021_paper.html) and [Text-IF(CVPR, 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Yi_Text-IF_Leveraging_Semantic_Text_Guidance_for_Degradation-Aware_and_Interactive_Image_CVPR_2024_paper.html).  
 Thank you to all the authors mentioned above for their outstanding work.  
 
-# My related work related work for MFF ※
+# My related work in MFF ※
 
 <div align="center">
 
