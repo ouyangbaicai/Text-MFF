@@ -2,6 +2,8 @@
 
 #### 由于权重过大，github无法支持超过25M的数据上传。因此，我们仅更新了融合结果  
 #### 若您需要复现更多的结果，欢迎与第一作者进行邮件联系
+#### [2026.6.26] 我们在[魔塔](https://www.modelscope.cn/models/ouyangbaicai/Text-MFF)更新了权重，现在您也可以自行进行下载  
+#### [2026.6.26] We have updated the model weights in [Mota](https://www.modelscope.cn/models/ouyangbaicai/Text-MFF) Now you can also download it yourself 
 #### 欢迎参考和引用我们的工作(Welcome to refer to and cite our work) 
 #### 文章发表在Expert Systems with Applications Volume 311, 15 May 2026上
 #### Code for paper [“Text-MFF: Degradation multi-focus image fusion using multi expert text constraints”](https://www.sciencedirect.com/science/article/abs/pii/S0957417426002824).  
