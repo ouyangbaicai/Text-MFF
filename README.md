@@ -70,4 +70,4 @@ Ouyang Y, Zhai H, Jiang J, et al. Text-MFF: Degradation multi-focus image fusion
 ```
 
 # Contact information  
-E-mail addresses: 2023210516060@stu.cqnu.edu.cn (Y. Ouyang)
+E-mail addresses: yuncanouyang@mail.nwpu.edu.cn (Y. Ouyang)
