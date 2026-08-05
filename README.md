@@ -1,6 +1,5 @@
 # Text-MFF (Expert Systems With Applications, 2026)：
 
-#### 由于权重过大，github无法支持超过25M的数据上传。因此，我们仅更新了融合结果  
 #### 若您需要复现更多的结果，欢迎与第一作者进行邮件联系
 #### [2026.6.26] 我们在[魔搭](https://www.modelscope.cn/models/ouyangbaicai/Text-MFF)更新了权重，现在您也可以自行进行下载  
 #### [2026.6.26] We have updated the model weights in [modelscope](https://www.modelscope.cn/models/ouyangbaicai/Text-MFF), Now you can also download it yourself 
@@ -38,7 +37,7 @@ Thank you to all the authors mentioned above for their outstanding work.
 # How to use ※
 -   仅提供关键代码和权重。
 -   完整代码构建可参考[FusionGCN](https://github.com/ouyangbaicai/FusionGCN)项目。
--   仅需简单替换即可完成。   
+-   仅需简单替换同名文件即可完成。   
 -   Only provide key codes and weights.  
 -   The complete code construction can refer to the [FusionGCN](https://github.com/ouyangbaicai/FusionGCN) project.
 -   Simply replace it to complete.
