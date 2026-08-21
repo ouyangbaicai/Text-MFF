@@ -6,6 +6,14 @@
 #### 欢迎参考和引用我们的工作(Welcome to refer to and cite our work) 
 #### 文章发表在Expert Systems with Applications Volume 311, 15 May 2026上
 #### Code for paper [“Text-MFF: Degradation multi-focus image fusion using multi expert text constraints”](https://www.sciencedirect.com/science/article/abs/pii/S0957417426002824).  
+
+# How to use ※
+-   仅提供关键代码和权重。
+-   完整代码构建可参考[FusionGCN](https://github.com/ouyangbaicai/FusionGCN)项目。
+-   仅需简单替换同名文件即可完成。   
+-   Only provide key codes and weights.  
+-   The complete code construction can refer to the [FusionGCN](https://github.com/ouyangbaicai/FusionGCN) project.
+-   Simply replace it to complete.
   
 # Acknowledgments ※  
 训练、测试框架由 [MFFT(EAAI, 2024)](https://www.sciencedirect.com/science/article/abs/pii/S0952197624001258) 构建而来。  
@@ -33,14 +41,6 @@ Thank you to all the authors mentioned above for their outstanding work.
 -   The generation of statements is limited by a fixed vocabulary.
 -   Only cosine similarity may mislead the network into producing incorrect statements.
 -   Unable to effectively address strong and variable degradation interference.
-  
-# How to use ※
--   仅提供关键代码和权重。
--   完整代码构建可参考[FusionGCN](https://github.com/ouyangbaicai/FusionGCN)项目。
--   仅需简单替换同名文件即可完成。   
--   Only provide key codes and weights.  
--   The complete code construction can refer to the [FusionGCN](https://github.com/ouyangbaicai/FusionGCN) project.
--   Simply replace it to complete.
 
 # submitted and accepted dates  
 -   **ESWA-D-25-15335:** **STJ**(6.17)→**WE**(6.18)→**UR**(7.5)→**DIP**(9.15)→**Revise(9.16)**  
