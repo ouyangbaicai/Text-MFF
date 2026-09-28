@@ -1,6 +1,7 @@
 # Text-MFF (Expert Systems With Applications, 2026)：
 
 #### 若您需要复现更多的结果，欢迎与第一作者进行邮件联系
+#### [2026.9.28] 修复了模型无法处理单数尺寸的图像问题，优化了inference.py的路径保存逻辑  
 #### [2026.6.26] 我们在[魔搭](https://www.modelscope.cn/models/ouyangbaicai/Text-MFF)更新了权重，现在您也可以自行进行下载  
 #### [2026.6.26] We have updated the model weights in [modelscope](https://www.modelscope.cn/models/ouyangbaicai/Text-MFF), Now you can also download it yourself 
 #### 欢迎参考和引用我们的工作(Welcome to refer to and cite our work) 
