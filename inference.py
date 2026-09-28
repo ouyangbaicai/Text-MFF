@@ -7,7 +7,6 @@ import clip
 import numpy as np
 import torch
 from tqdm import tqdm
-from torch import einsum
 from Nets.Network import Network
 from Utilities import Consistency
 import Utilities.DataLoaderFM as DLr
@@ -25,9 +24,9 @@ class ZeroOneNormalize(object):
 
 class Fusion:
     def __init__(self,
-                 modelpath='RunTimeData/2025-04-21 10.08.42/model4.ckpt',
-                 dataroot='D:\\ouyangbaicai\\MSI-DTrans\\Datasets\\Eval',
-                 dataset_name='HBU-CVMDSP',
+                 modelpath='RunTimeData/best_network.pth',
+                 dataroot='D:\\code\\MSI-DTrans\\Datasets\\Eval',
+                 dataset_name='RealMFF',
                  threshold=0.005,
                  window_size=5,
                  ):
@@ -75,8 +74,8 @@ class Fusion:
         return Verified_img_tensor
 
     def FusionProcess(self, model, eval_list_A, eval_list_B, savepath, threshold):
-        if not os.path.exists('./Results/all_MFFW/' + 'MFFW36'):
-            os.makedirs('./Results/all_MFFW/' + "MFFW36", exist_ok=True)
+        if not os.path.exists('./Results/' + savepath):
+            os.makedirs('./Results/' + savepath, exist_ok=True)
         eval_data = DLr.Dataloader_Eval(eval_list_A, eval_list_B)
         eval_loader = DataLoader(dataset=eval_data,
                                  batch_size=1,
@@ -92,10 +91,10 @@ class Fusion:
                 Pre_B, real_similarities_B, fake_similarities_B, text_B = model(B, None, None, forward=True)
                 # Reverse
                 Pre = model(Pre_A, Pre_B, text_A, forward=False)
-                Fused = einsum('c w h -> w h c', Pre[0]).clone().detach().cpu().numpy()
+                Fused = torch.einsum('c w h -> w h c', Pre[0]).clone().detach().cpu().numpy()
                 Fused = np.clip(Fused * 255, 0, 255).astype(np.uint8)
                 Fused = cv2.cvtColor(Fused, cv2.COLOR_BGR2RGB)
-                cv2.imwrite('./Results/all_MFFW/' + "MFFW36" + '/' + self.DATASET_NAME + '-' + str(cnt).zfill(2) + '-fused.jpg', Fused)
+                cv2.imwrite('./Results/' + self.DATASET_NAME + '/' + self.DATASET_NAME + '-' + str(cnt).zfill(2) + '-fused.png', Fused)
                 cnt += 1
                 running_time.append(time.time() - start_time)
         running_time_total = 0
